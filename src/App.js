@@ -79,7 +79,7 @@ function App() {
 
       {generatedImageURL && ( 
         <div className="image-container">
-          <img src={generatedImageURL} alt="Generated artwork" />
+          <img src={generatedImageURL} alt="Generated Comic Artwork" />
         </div>
       )}
 
