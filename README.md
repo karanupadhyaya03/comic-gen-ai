@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Comic GenAI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Comic GenAI is a web application that enables users to generate unique comic images based on creative prompts. It utilizes Hugging Face's AI model for image generation.
 
-## Available Scripts
+## Demo
 
-In the project directory, you can run:
+Check out the live demo: [Comic GenAI](https://comic-gen-ai.onrender.com/)
 
-### `npm start`
+## Author
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Karan Upadhyaya](https://github.com/karanupadhyaya03)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Generate custom comic images with provided prompts.
+- User-friendly interface.
+- Responsive design for a seamless experience on both desktop and mobile devices.
+- Loading state and disabled button for improved user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/karanupadhyaya03/comic-genai.git
+   ```
+2. Install dependencies:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+    Copy code
+    cd comic-genai
+    npm install
+    Set up environment variables:
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Create a .env file in the project root and add the necessary environment variables, such as API keys.
 
-### `npm run eject`
+   ```bash
+    env
+    Copy code
+    REACT_APP_HUGGINGFACE_API_URL=https://xdwvg9no7pefghrn.us-east-1.aws.endpoints.huggingface.cloud
+    REACT_APP_HUGGINGFACE_API_KEY=your-api-key
+   ```
+4. Run the application:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+    bash
+    Copy code
+    npm start
+    Access the app at http://localhost:3000.
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+1. Open the application in your web browser.
+2. Enter your creative prompt in the input field.
+3. Click the "GENERATE" button to initiate the image generation.
+4. Wait for the process to complete, and the generated image will be displayed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Built With
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [React](https://reactjs.org/)
+- [Hugging Face API](https://huggingface.co/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
